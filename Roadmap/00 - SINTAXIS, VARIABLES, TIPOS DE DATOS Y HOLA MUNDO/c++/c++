@@ -1,0 +1,43 @@
+/*incicio del curso (retos de programacion); incicio 1/07/2024 nombre: David. Edad: 17 años. tiempo programando: 1 semana.
+  url del sitio web: https://www.mycompiler.io/es/online-c++-compiler ==compilador
+                     https://visualstudio.microsoft.com/es/vs/features/cplusplus/ ==interprete
+*/
+
+//sintaxis de programacion 
+
+#include <iostream>  //biblioteca de entrada y de salida del programa( cout<< and cin>> );
+#include <stdlib.h> //biblioteca para usar systempause(opcional);
+#include <conio.h> //biblioteca para usar getch() : opcional;
+
+using namespace std; // atajo para evitar el tecnico uso de std:: and ::std;
+
+int main(){   
+   
+    //variables (tipos de datos basicos)
+
+    int numero_entero=1;
+     float numero_decimal_short=0.5;
+      char caracter = 'c';
+       double numero_decimal_long=0.0005;
+  
+
+   //impresion del terminal 
+
+    cout<<numero_entero<<endl;
+     cout<<numero_decimal_short<<endl;
+      cout<<caracter<<endl;
+       cout<<numero_decimal_long<<endl;
+  
+    //impresion de Hola_Mundo =D
+
+    cout<<"Hola_Mundo,mi_lenguaje_de_programacion: C++"<<endl;
+   
+
+
+
+
+
+   getch/n();
+   system("pause");
+   return 0; 
+}
